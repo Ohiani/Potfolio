@@ -18,6 +18,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: var(--gray-color);
+
+    span{
+        color: var(--secondary-color);
+    }
 
     img {
         width: 90px;
