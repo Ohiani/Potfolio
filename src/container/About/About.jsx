@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react'
+
 import { motion } from 'framer-motion'
 import {images} from '../../constants'
 import {AppWrap, MotionWrapper} from '../../Wrapper'
@@ -7,18 +7,18 @@ import './about.scss'
 
 const abouts = [
   {
-  title: 'Web Developer',
+  title: 'Who am i ?',
   description: 'I am a self thought web developer, with a passion to grow in this field.',
-  imgUrl: images.about03,
+  imgUrl: images.me,
 },
   {
-  title: 'Frontend',
-  description: 'I enjoy frontend dev because it deals with creativity, and lets me express myself',
+  title: `What i'm good at ??`,
+  description: 'I enjoy frontend web development because it deals with creativity, and allows me express myself, without having to speak.',
   imgUrl: images.about01,
 },
   {
-  title: 'Backend',
-  description: 'I am still not fully confident in backend web Dev, but i am getting there.',
+  title: `What i'm working on ??? `,
+  description: 'I am still not fully confident in backend web Development, but i am working hard to become a Fullstack Web Developer.',
   imgUrl: images.about02,
 },
 ]
@@ -29,7 +29,7 @@ const About = () => {
   return (
     <>
       <h2 className='head-text'>
-        I know that <span>Good Design <br /> </span> means <span>Good business</span>
+        Welcome <span>To My </span> Space <br /><span></span>
       </h2>
 
       <div className='app__profile'>
@@ -47,6 +47,11 @@ const About = () => {
           </motion.div>
         ))}
       </div>
+
+      <div className='app__profile-about'> 
+      {/*<h2>A Little <span>History</span> About Me </h2>*/}
+      <p className='about-text p-text'><span>Frank Lucky</span> is a design oriented Frontend web developer, he aspires to build alluring and functional web applications through carefully crafted code and user-friendly desgins. after graduating with a B.Eng in Electrical and Electronics Engineering in 2022, Frank has focused his professional career almost entirely on Web development. <br /> Specializing in JavaScript<span>(React JS)</span>, CSS including frameworks like <span>(SCSS, Tailwind, Material UI,)</span>  etc for building reuseable code and working with countless apis and database systems to create responsive and optimizable web applications.
+      when not glued to his computer, Frank is a lover of sports and can be fround either watching the next EPL game or out with friends practicing some footballing skills. </p></div>
     </>
   )
 }

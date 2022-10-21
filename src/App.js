@@ -8,10 +8,10 @@ function App() {
     <div className="app">
       <Navbar/> 
       <Header/>
-      <About/>
       <Work/>
       <Skills/>
       <Testimonials/>
+      <About/>
       <Footer/>
 
     </div>

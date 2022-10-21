@@ -8,7 +8,7 @@ import Data from './Data'
 import './work.scss';
 
 const Work = () => {
-
+ 
   const [activeFilter, setActiveFilter] = useState("All");
   const [animateCard, setAnimateCard] = useState({y: 0, opacity: 1 });
   const [filterWork, setFilterWork] = useState(Data)
