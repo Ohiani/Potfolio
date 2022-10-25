@@ -29,7 +29,7 @@ import profile from '../assets/profile.png';
 import profile2 from '../assets/profile2.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-import me from '../assets/me.jpg'
+import me from '../assets/me.jpg';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -41,7 +41,7 @@ import spotify from '../assets/spotify.png';
 
 import bisola from '../assets/bisola.png'
 
-export default {
+const Images = {
   email,
   me,
   mobile,
@@ -80,3 +80,4 @@ export default {
   spotify,
   bisola,
 };
+export default Images;

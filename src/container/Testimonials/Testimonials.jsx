@@ -15,7 +15,8 @@ const Testimonials = () => {
 
 
   useEffect(() => {
-    setTestimonials(Data)
+    setTestimonials(Data);
+    setBrands(Brands)
 
   }, [])
 

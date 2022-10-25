@@ -11,11 +11,17 @@ import Data from './Data';
 
 
 import './skills.scss';
+import { useEffect } from 'react';
 
 const Skills = () => {
 
-  const [skills, setSkills] = useState(Data);
-  const [experience, setExperience] = useState(experiences)
+  const [skills, setSkills] = useState(null);
+  const [experience, setExperience] = useState(null);
+
+  useEffect(()=>{
+    setSkills(Data);
+    setExperience(experiences)
+  },[])
 
 
   return (
@@ -26,7 +32,7 @@ const Skills = () => {
 
         <motion.div className="app__skills-list">
         
-          {skills.map((skill)=> (
+          {skills?.map((skill)=> (
             <motion.div 
               whileInView={{opacity: [0,1]}}
               transition={{ duration: 0.5 }}
