@@ -28,7 +28,9 @@ const Testimonials = () => {
   const test = testimonials[currentIndex];
   return (
     <>
-
+      <h2 className='head-text'>
+        Testimonials
+      </h2>
       {testimonials.length &&
         
           <div

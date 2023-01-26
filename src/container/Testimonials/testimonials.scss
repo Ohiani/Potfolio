@@ -4,6 +4,9 @@
     flex-direction: column;
 
 }
+.head-text{
+    margin-bottom: 3rem;
+}
 .app__testimonial-item{
     width: 60%;
     min-height: 320px;
@@ -37,6 +40,12 @@
     }
     @media screen and(max-width:600px) {
         flex-direction: column;
+    }
+     @media screen and(max-width:400px) {
+        width: 80%;
+        min-height: 280px;
+        padding: 1rem;
+      
     }
 }
 
@@ -124,17 +133,23 @@
             &:hover{
                 filter: grayscale(0);
             }
+
+            @media screen and(max-width:400px) {
+            width: 60px;
+        }
         }
 
         @media screen and(min-width:2000px) {
             width: 210px;
             margin: 2rem;
         }
-        @media screen and(min-width:450px) {
-            width: 120px;
-            margin: 1rem;
+        @media screen and(max-width:450px) {
+            width: 100px;
+            margin: 0.2rem;
         }
     }
+
+
     @media screen and(max-width:450px) {
         width: 100%;
     }

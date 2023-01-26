@@ -19,7 +19,7 @@ const   Data = [
         id: 3,
         name: 'Ohiani Ridwan',
         expertise: 'Cloud Computing',
-        feedback: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sunt odio, blanditiis, exercitationem, beatae nostrum asperiores tempora tempore libero maxime vero atque? Dolores, veritatis hic similique ducimus earum soluta totam.',
+        feedback: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         img: (images.figma),
     }
 ]

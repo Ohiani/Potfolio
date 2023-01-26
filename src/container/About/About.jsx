@@ -50,7 +50,9 @@ const About = () => {
 
       <div className='app__profile-about'> 
       {/*<h2>A Little <span>History</span> About Me </h2>*/}
-      <p className='about-text p-text'><span>Frank Lucky</span> is a design oriented Frontend web developer, he aspires to build alluring and functional web applications through carefully crafted code and user-friendly desgins. after graduating with a B.Eng in Electrical and Electronics Engineering in 2022, Frank has focused his professional career almost entirely on Web development. <br /> Specializing in JavaScript<span>(React JS)</span>, CSS including frameworks like <span>(SCSS, Tailwind, Material UI,)</span>  etc for building reuseable code and working with countless apis and database systems to create responsive and optimizable web applications.
+      <p className='about-text p-text'><span>Frank Lucky</span> is a design oriented Frontend web developer, he aspires to build alluring and functional web applications through carefully crafted code and user-friendly designs. After graduating with a B.Eng in Electrical and Electronics Engineering in 2022, Frank has focused his professional career almost entirely on Web development. <br />
+      
+       <br/> Specializing in JavaScript<span>(React JS)</span>, CSS including frameworks like <span>(SCSS, Tailwind, Material UI,)</span>  etc for building reuseable code and working with countless APIs and database systems to create responsive and optimizable web applications.
       when not glued to his computer, Frank is a lover of sports and can be fround either watching the next EPL game or out with friends practicing some footballing skills. </p></div>
     </>
   )

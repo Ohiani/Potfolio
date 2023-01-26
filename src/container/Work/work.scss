@@ -47,7 +47,7 @@
     align-items: center;
 
     .app__work-item{
-        width: 270px;
+        width: 16.8rem;
         padding: 1rem;
         margin: 2rem;
         flex-direction: column;
@@ -68,10 +68,11 @@
             border-radius: 0.75rem;
             
         }
-        @media screen and (max-width:400px){
-            width: 100%;
-            margin: 1rem;
-            
+
+        @media  screen and (max-width: 400px){
+            width: 160px;
+            height: 210px;
+            margin: 0.5rem;
         }
 
     }
@@ -86,6 +87,14 @@
         height: 100%;
         object-fit: cover;
         border-radius: 0.5rem;
+
+
+        @media  screen and (max-width: 400px){
+            width: 90%;
+            height: 70%;
+            object-fit: cover;
+            margin: 1rem;
+        }
     }
 
 
@@ -93,6 +102,10 @@
         height: 350px;
         
     }
+    @media  screen and (max-width: 400px){
+        height: 150px;
+    }
+   
 }
 .app__work-hover{
     position: absolute;
@@ -139,6 +152,12 @@
     h4{
         margin-top: 1rem;
         line-height: 1.4;
+
+        @media screen and (max-width:400px){
+            margin-top: 0.5rem;
+            line-height: 1;
+            }
+        
     }
     p{
         text-align: center;

@@ -1,33 +1,24 @@
 .app__testimonials {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
+}
+
+.head-text {
+  margin-bottom: 3rem;
 }
 
 .app__testimonial-item {
   width: 60%;
   min-height: 320px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   background-color: var(--white-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 2rem;
   border-radius: 15px;
-  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease-in-out;
 }
-
 .app__testimonial-item img {
   width: 100px;
   height: 100px;
@@ -35,7 +26,6 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 @media screen and (min-width: 2000px) {
   .app__testimonial-item {
     min-height: 450px;
@@ -46,56 +36,45 @@
     height: 150px;
   }
 }
-
 @media screen and (max-width: 850px) {
   .app__testimonial-item {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 600px) {
   .app__testimonial-item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .app__testimonial-item {
+    width: 80%;
+    min-height: 280px;
+    padding: 1rem;
   }
 }
 
 .app__testimonial-content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   height: 100%;
   padding: 0 2rem;
   text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
-
 .app__testimonial-content p {
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--black-color);
   font-family: var(--font-base);
 }
-
 .app__testimonial-content h4 {
   font-weight: 600;
   color: var(--secondary-color);
   margin-top: 2rem;
 }
-
 .app__testimonial-content h5 {
   font-weight: 500;
   color: var(--gray-color);
@@ -103,13 +82,9 @@
 }
 
 .app__testimonial-btn {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-top: 1.5rem;
 }
-
 .app__testimonial-btn div {
   width: 50px;
   height: 50px;
@@ -117,67 +92,58 @@
   margin: 1rem;
   background-color: var(--white-color);
   margin: 1rem;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-
 .app__testimonial-btn div svg {
   width: 20px;
   height: 20px;
   color: var(--secondary-color);
 }
-
 .app__testimonial-btn div:hover {
   background-color: var(--secondary-color);
 }
-
 .app__testimonial-btn div:hover svg {
   color: var(--white-color);
 }
 
 .app__testimonial-brands {
   width: 80%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
-
 .app__testimonial-brands div {
   width: 150px;
   margin: 1.5rem;
 }
-
 .app__testimonial-brands div img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  filter: grayscale(1);
 }
-
 .app__testimonial-brands div img:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  filter: grayscale(0);
 }
-
+@media screen and (max-width: 400px) {
+  .app__testimonial-brands div img {
+    width: 60px;
+  }
+}
 @media screen and (min-width: 2000px) {
   .app__testimonial-brands div {
     width: 210px;
     margin: 2rem;
   }
 }
-
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
   .app__testimonial-brands div {
-    width: 120px;
-    margin: 1rem;
+    width: 100px;
+    margin: 0.2rem;
   }
 }
-
 @media screen and (max-width: 450px) {
   .app__testimonial-brands {
     width: 100%;
   }
-}
-/*# sourceMappingURL=testimonials.css.map */
+}/*# sourceMappingURL=testimonials.css.map */

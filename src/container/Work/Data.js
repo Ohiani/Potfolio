@@ -8,14 +8,14 @@ const Data =[
         description:"A modern React project",
         projectLink: 'https://zesty-bombolone-b396b1.netlify.app/',
         tags:['React', 'All'],
-        Img: (images.about05),
+        Img: (images.about02),
     },
     {
         id: 2,
         name: "HTML & CSS",
         description:"Beautiful UI/UX designs with HTML & CSS",
         projectLink: 'https://app.netlify.com/sites/zesty-bombolone-b396b1',
-        tags:['HTML & CSS', 'All'],
+        tags:['HTML', 'All'],
         Img: (images.about04),
     },
     {

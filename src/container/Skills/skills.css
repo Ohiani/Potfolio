@@ -1,1 +1,168 @@
-/* No CSS *//*# sourceMappingURL=skills.css.map */
+.app__skills {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__skills-container {
+  width: 80%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 900px) {
+  .app__skills-container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.app__skills-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 5rem;
+}
+@media screen and (max-width: 900px) {
+  .app__skills-list {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.app__skills-item {
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.app__skills-item div {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.app__skills-item div img {
+  width: 50%;
+  height: 50%;
+}
+.app__skills-item div:hover {
+  box-shadow: 0 0 25px #fef4f5;
+}
+@media screen and (min-width: 2000px) {
+  .app__skills-item div {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .app__skills-item div {
+    width: 70px;
+    height: 70px;
+  }
+}
+.app__skills-item p {
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+@media screen and (min-width: 2000px) {
+  .app__skills-item {
+    margin: 1rem 2rem;
+  }
+  .app__skills-item p {
+    margin-top: 1rem;
+  }
+}
+
+.app__skills-exp {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media screen and (max-width: 900px) {
+  .app__skills-exp {
+    margin-top: 2rem;
+  }
+}
+.app__skills-exp .app__skills-exp-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+.app__skills-exp .app__skills-exp-item .app__skills-exp-year {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.app__skills-exp .app__skills-exp-item .app__skills-exp-year h4 {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+@media screen and (max-width: 900px) {
+  .app__skills-exp .app__skills-exp-item .app__skills-exp-year h4 {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .app__skills-exp .app__skills-exp-item .app__skills-exp-year {
+    width: 35%;
+  }
+}
+.app__skills-exp .app__skills-exp-works {
+  width: 60%;
+}
+.app__skills-exp .app__skills-exp-works p {
+  font-weight: 700;
+  color: var(--gray-color);
+  margin-top: 7px;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 900px) {
+  .app__skills-exp .app__skills-exp-works p {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+.app__skills-exp .app__skills-exp-works .app__skills-exp-work {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .app__skills-exp .app__skills-exp-works .app__skills-exp-work {
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
+}
+.app__skills-exp .app__skills-exp-works .app__skills-exp-work li {
+  margin-bottom: 0.6rem;
+}
+
+.skills-tooltip {
+  max-width: 300px !important;
+  background-color: var(--white-color) !important;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 5px !important;
+  padding: 1rem !important;
+  color: var(--gray-color) !important;
+  text-align: center !important;
+  line-height: 1.5 !important;
+  opacity: 1 !important;
+}
+@media screen and (min-width: 2000px) {
+  .skills-tooltip {
+    font-size: 1.7rem !important;
+    max-width: 500px !important;
+    line-height: 2 !important;
+  }
+}/*# sourceMappingURL=skills.css.map */
